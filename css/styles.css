@@ -107,6 +107,7 @@ figure img {
 
 figcaption {
   color: #f2f2f2;
+  text-align: center;
   padding: 0.5rem;
 }
 
@@ -246,13 +247,37 @@ footer a {
     transition: all 0.2s ease-in-out;
   }
 
+  footer a {
+    text-decoration: none;
+  }
+
   footer li .icon {
     transition: all 0.2s cubic-bezier(0.68, 0.21, 0.42, 2.46);
   }
 
-  footer li:hover .icon {
-    transform: scale(1.5);
-    box-shadow: 0 0 60px 5px #131d26;
+  footer li .lg-only {
+    display: block;
+    visibility: visible;
+    font-size: 0.9rem;
+    opacity: 0;
+    position: static;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    clip: auto;
+    transition: all 0.2s cubic-bezier(0.68, 0.21, 0.42, 2.46);
+  }
+
+  footer li:hover {
+    & .icon {
+      transform: scale(1.5);
+      box-shadow: 0 0 60px 5px #131d26;
+    }
+
+    & .lg-only {
+      opacity: 1;
+    }
   }
 
   @keyframes spin {
