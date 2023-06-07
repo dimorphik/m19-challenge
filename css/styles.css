@@ -70,7 +70,6 @@ nav a {
   display: block;
 }
 
-/* all hover transitions for nav elements in one selector! */
 nav li:hover a {
   color: #d98555;
   & .caption {
@@ -78,7 +77,7 @@ nav li:hover a {
   }
 }
 
-.main-bkgd {
+main {
   background: #ffffff url(../media/images/gulp-bean-bkgd.jpg) repeat-x bottom;
   padding-bottom: 300px;
 }
