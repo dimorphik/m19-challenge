@@ -8,3 +8,5 @@ For my solution to the Module 19 challenge, I used the following responsive brea
 - **small** (mobile): max-width = **767px**
 - **medium** (tablet): min-width = **768px**, max-width = **1265px**
 - **large** (desktop): min-width = **1266px**
+
+The current code can be viewed [live on GitHub Pages](https://dimorphik.github.io/m19-challenge/).
