@@ -498,6 +498,17 @@ footer a {
     max-width: 500px;
   }
 
+  .contact a,
+  .contact a:visited {
+    color: #59331d;
+  }
+
+  .contact a:hover,
+  .contact a:active {
+    text-decoration: underline;
+    color: #d98555;
+  }
+
   .button {
     transition: all 0.2s ease-in-out;
   }
