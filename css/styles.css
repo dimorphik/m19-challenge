@@ -88,7 +88,10 @@ nav li:hover a {
 }
 
 main {
-  background: #ffffff url(../media/images/gulp-bean-bkgd.jpg) repeat-x bottom;
+  background-color: #fff;
+  background-image: url(../media/images/gulp-bean-bkgd.jpg);
+  background-repeat: repeat-x;
+  background-position-y: bottom;
   padding-bottom: 270px;
 }
 
