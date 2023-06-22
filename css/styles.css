@@ -256,7 +256,7 @@ footer a {
     padding-bottom: 290px;
   }
 
-  section#about {
+  #about {
     flex-flow: row wrap;
     gap: 1.5rem;
   }
@@ -408,7 +408,7 @@ footer a {
     animation-timing-function: ease-out;
   }
 
-  section#about {
+  #about {
     max-width: 1500px;
     padding: 2rem;
     flex-flow: row wrap;
