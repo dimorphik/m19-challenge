@@ -64,11 +64,11 @@ nav li .icon {
   margin-right: 0.3rem;
 }
 
-nav .logo img {
+#logo img {
   max-width: 200px;
 }
 
-nav .logo {
+#logo {
   flex-basis: 100%;
   text-align: center;
   margin-bottom: 0.5rem;
@@ -103,7 +103,7 @@ section {
   justify-content: space-between;
 }
 
-.about figure {
+#about figure {
   margin: 2.5rem 0 0 0;
   border-radius: 1rem;
   overflow: hidden;
@@ -113,29 +113,29 @@ section {
   align-self: center;
 }
 
-.about article p {
+#about article p {
   margin: 0.8rem 0 2.3rem 0;
 }
 
-.about article p:last-of-type {
+#about article p:last-of-type {
   margin-bottom: 0.7rem;
 }
 
-.about figure img {
+#about figure img {
   display: block;
   width: 100%;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 
-.about figcaption {
+#about figcaption {
   color: #f2f2f2;
   background-color: #59331d;
   text-align: center;
   padding: 0.5rem;
 }
 
-.products {
+#products {
   padding-bottom: 0;
 }
 
@@ -144,46 +144,46 @@ section {
   padding: 0;
 }
 
-.products picture {
+#products picture {
   margin: 1.5rem 1rem 0 1rem;
   padding: 0;
 }
 
-.products img {
+#products img {
   width: 100%;
   border-radius: 1rem;
   max-width: 400px;
 }
 
-.products article {
+#products article {
   margin: 0 1rem 2.2rem 1rem;
 }
 
-.products h2 {
+#products h2 {
   font-size: 1.3rem;
   margin-bottom: 0.5rem;
 }
 
-.products p {
+#products p {
   margin: 0;
   font-size: 1.25rem;
 }
 
-.contact p {
+#contact p {
   margin: 0;
 }
 
-.contact p:first-of-type {
+#contact p:first-of-type {
   margin-top: 1rem;
 }
 
-.contact picture {
+#contact picture {
   margin: 2.7rem auto 0 auto;
   border-radius: 1rem;
   overflow: hidden;
 }
 
-.contact img {
+#contact img {
   display: block;
   width: 100%;
 }
@@ -209,7 +209,7 @@ footer {
   text-align: center;
 }
 
-footer .copyright {
+#copyright {
   font-size: 1.2rem;
   padding: 0 1.1rem;
   margin: 0.4rem 0 1rem 0;
@@ -244,7 +244,7 @@ footer a {
     flex-flow: row wrap;
   }
 
-  nav .logo {
+  #logo {
     margin: 0 1rem;
   }
 
@@ -256,24 +256,24 @@ footer a {
     padding-bottom: 290px;
   }
 
-  .about {
+  section#about {
     flex-flow: row wrap;
     gap: 1.5rem;
   }
 
-  .about article {
+  #about article {
     flex-basis: 0;
     flex-grow: 1;
   }
 
-  .about figure {
+  #about figure {
     align-self: baseline;
     margin-top: 5.3rem;
     width: 100%;
     max-width: 290px;
   }
 
-  .products {
+  #products {
     display: block;
     margin: 0;
   }
@@ -319,25 +319,25 @@ footer a {
     padding: 0 2.5rem 0 0;
   }
 
-  .contact {
+  #contact {
     display: flex;
     flex-flow: row wrap;
   }
 
-  .contact > * {
+  #contact > * {
     flex-basis: 0;
     flex-grow: 1;
   }
 
-  .contact h1 {
+  #contact h1 {
     margin-top: 3.5rem;
   }
 
-  .contact picture {
+  #contact picture {
     margin-top: 0;
   }
 
-  footer .copyright {
+  #copyright {
     margin-bottom: 0;
   }
 
@@ -363,14 +363,14 @@ footer a {
     padding: 0 2rem 0 1rem;
   }
 
-  nav .logo {
+  #logo {
     flex-grow: 1;
     flex-basis: 0;
     text-align: left;
     margin: 1rem 0 0 0;
   }
 
-  nav .logo img:hover {
+  #logo img:hover {
     animation-name: spin;
     animation-duration: 1s;
     animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
@@ -408,7 +408,7 @@ footer a {
     animation-timing-function: ease-out;
   }
 
-  section.about {
+  section#about {
     max-width: 1500px;
     padding: 2rem;
     flex-flow: row wrap;
@@ -417,28 +417,28 @@ footer a {
     margin: 0 auto;
   }
 
-  .about article {
+  #about article {
     flex-basis: 47.5%;
   }
 
-  .about article p:last-of-type {
+  #about article p:last-of-type {
     margin-bottom: 1.1rem;
   }
 
-  .about figure {
+  #about figure {
     flex-basis: 45%;
     align-self: baseline;
     margin-top: 8.5rem;
     max-width: 500px;
   }
 
-  section.products {
+  #products {
     display: block;
     margin: 0 auto;
     padding: 2rem;
   }
 
-  .products h1 {
+  #products h1 {
     flex-basis: 100%;
     font-size: 2.5rem;
     margin: 1rem 0 0 0;
@@ -482,32 +482,32 @@ footer a {
     font-size: 1.2rem;
   }
 
-  .contact {
+  #contact {
     max-width: 1200px;
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
   }
 
-  .contact h1 {
+  #contact h1 {
     margin-top: 7.5rem;
   }
 
-  .contact picture {
+  #contact picture {
     margin-top: 0;
   }
 
-  .contact img {
+  #contact img {
     max-width: 500px;
   }
 
-  .contact a,
-  .contact a:visited {
+  #contact a,
+  #contact a:visited {
     color: #59331d;
   }
 
-  .contact a:hover,
-  .contact a:active {
+  #contact a:hover,
+  #contact a:active {
     text-decoration: underline;
     color: #d98555;
   }
